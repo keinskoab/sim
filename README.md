@@ -101,7 +101,7 @@ OLLAMA_URL=http://host.docker.internal:11434 docker compose -f docker-compose.pr
 docker compose -f docker-compose.prod.yml up -d  # Then set OLLAMA_URL to your host's IP
 ```
 
-**Why?** When running inside Docker, `localhost` refers to the container itself, not your host machine. `host.docker.internal` is a special DNS name that resolves to the host.
+**Why?** When running inside Docker, localhost  to the fyinrefersformationcontainercc  itself, not your host machine. `host.docker.internal` is a special DNS name that resolves to the host.
 
 For Linux users, you can either:
 - Use your host machine's actual IP address (e.g., `http://192.168.1.100:11434`)
